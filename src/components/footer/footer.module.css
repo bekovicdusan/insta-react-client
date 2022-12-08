@@ -1,0 +1,33 @@
+.footer-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  margin-right: 10px;
+  border-radius: 50%;
+  border: 1px solid #e0218a;
+  color: #e0218a;
+  transition: all .4s;
+}
+
+.link:hover {
+  background-color: #e0218a;
+  color: white;
+}
+
+.icon {
+  font-size: 18px;
+  /* color: #e0218a; */
+}
